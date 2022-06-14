@@ -54,3 +54,30 @@ nav{
     margin: 15px 0px;
     color: rgb(199, 199, 199);
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    line-height: 1.5;
+    text-indent: -30px;
+    padding: 8px 0 8px 30px;
+  }
+  
+  .check:before{
+    float: left;
+    display: block;
+    content: '\2713';
+    color: rgb(31, 168, 51);
+    margin: 0 30px 0 0;
+  }
+  .cross:before{
+    float: left;
+    display: block;
+    content: '\2717';
+    color: red;
+    margin: 0 30px 0 0;
+  }
