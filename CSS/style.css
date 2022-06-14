@@ -2,4 +2,55 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(241, 241, 247);
+}
+
+header{
+    background-color: white;
+}
+
+.logo{
+    padding: 10px 20px;
+    font-size: 35px;
+}
+#logo{
+    vertical-align: middle;
+}
+
+/* regole di layout */
+.container{
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+nav{
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+/*misure bottoni */
+.button{
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.task{
+    background-color: cornflowerblue;
+    margin: 15px 5px 15px 70px;
+    color: white;
+    border: solid cornflowerblue;
+}
+.section{
+    border: solid rgb(199, 199, 199);
+    margin: 15px 0px;
+    color: rgb(199, 199, 199);
 }
