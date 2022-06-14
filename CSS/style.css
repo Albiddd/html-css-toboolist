@@ -57,9 +57,12 @@ nav{
 
 /* layout main */
 .list-layout{
-    padding:30px 70px;
+    padding:25px 0px 35px 70px;
 }
 
+.list-title{
+    margin: 10px 0px 2px 0px;
+}
 /* list style */
 ul {
     margin: 0;
