@@ -55,6 +55,12 @@ nav{
     color: rgb(199, 199, 199);
 }
 
+/* layout main */
+.list-layout{
+    padding:30px 70px;
+}
+
+/* list style */
 ul {
     margin: 0;
     padding: 0;
@@ -81,3 +87,40 @@ ul {
     color: red;
     margin: 0 30px 0 0;
   }
+
+.square{
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.editorial{
+    background-color: cornflowerblue; 
+    font-size: 12px;
+    color: white;  
+}
+.q1{
+    background-color: rgb(168, 132, 202);
+    font-size: 12px;
+    color: white;
+}
+.recruiting{
+    background-color: rgb(67, 175, 148);
+    font-size: 12px;
+    color: white;
+}
+.mobile{
+    background-color: orange;
+    font-size: 12px;
+    color: white;
+}
+.website{
+    background-color: rgb(207, 103, 137);
+    font-size: 12px;
+    color: white;
+}
+.sales{
+    background-color: rgb(103, 165, 28);
+    font-size: 12px;
+    color: white;
+}
